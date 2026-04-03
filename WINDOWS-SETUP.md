@@ -13,8 +13,8 @@ Download and install:
 
 ```powershell
 cd "E:\Git Projects"
-git clone https://github.com/newnewsposes/http-web-next.git
-cd http-web-next
+git clone https://github.com/newnewsposes/ThisIsCloud.git
+cd ThisIsCloud
 ```
 
 ### 3. Create Virtual Environment
@@ -99,7 +99,7 @@ python -m flask db upgrade
 
 Make sure you're in the project root directory:
 ```powershell
-cd "E:\Git Projects\http-web-next"
+cd "E:\Git Projects\ThisIsCloud"
 ```
 
 ### Port 5000 already in use
@@ -153,8 +153,8 @@ Windows is for development. For production, deploy to a Linux VPS:
    ```
 3. **Run deployment script:**
    ```bash
-   git clone https://github.com/newnewsposes/http-web-next.git
-   cd http-web-next
+   git clone https://github.com/newnewsposes/ThisIsCloud.git
+   cd ThisIsCloud
    chmod +x deploy.sh
    ./deploy.sh
    ```
